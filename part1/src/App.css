@@ -1,0 +1,12 @@
+#root {
+  --black-950: #000000;
+  --black-900: #141414;;
+  --white: #FFFFFF;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
