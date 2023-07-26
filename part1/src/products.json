@@ -1,0 +1,72 @@
+[
+    {
+        "title": "Lorem Ipsum",
+        "image": "product.png",
+        "price": 1.598,
+        "priceDiscount": 1.398,
+        "flag": ""
+    },
+    {
+        "title": "Lorem Ipsum",
+        "image": "product.png",
+        "price": 1.598,
+        "priceDiscount": 1.598,
+        "flag": ""
+    },
+    {
+        "title": "Lorem Ipsum",
+        "image": "product.png",
+        "price": 1.598,
+        "priceDiscount": 1.498,
+        "flag": ""
+    },
+    {
+        "title": "Lorem Ipsum",
+        "image": "product.png",
+        "price": 1.598,
+        "priceDiscount": 1.398,
+        "flag": "Sold Out."
+    },
+    {
+        "title": "Lorem Ipsum",
+        "image": "product.png",
+        "price": 1.598,
+        "priceDiscount": 1.598,
+        "flag": ""
+    },
+    {
+        "title": "Lorem Ipsum",
+        "image": "product.png",
+        "price": 1.598,
+        "priceDiscount": 1.298,
+        "flag": ""
+    },
+    {
+        "title": "Lorem Ipsum",
+        "image": "product.png",
+        "price": 1.598,
+        "priceDiscount": 1.598,
+        "flag": ""
+    },
+    {
+        "title": "Lorem Ipsum",
+        "image": "product.png",
+        "price": 1.598,
+        "priceDiscount": 1.598,
+        "flag": ""
+    },
+    {
+        "title": "Lorem Ipsum",
+        "image": "product.png",
+        "price": 1.598,
+        "priceDiscount": 1.598,
+        "flag": ""
+    },
+    {
+        "title": "Lorem Ipsum",
+        "image": "product.png",
+        "price": 1.598,
+        "priceDiscount": 1.598,
+        "flag": ""
+    }
+]

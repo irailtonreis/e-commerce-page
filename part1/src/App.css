@@ -4,9 +4,21 @@
   --white: #FFFFFF;
 }
 
+img {
+  display: block;
+  width: 100%; 
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
   will-change: filter;
   transition: filter 300ms;
 }
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  border: 2px solid red;
+}
+
