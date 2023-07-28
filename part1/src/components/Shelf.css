@@ -1,0 +1,44 @@
+.products-container{
+    padding-bottom: 95px;
+}
+
+.products-container .product-title{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.products-container .product-price-normal{
+    color: var(--gray-400);
+    font-size: 0.75rem;
+    line-height: normal;
+}
+
+.products-container .product-price-discount{
+    color: var(--black-950);
+    font-size: 0.875rem;
+    line-height: normal;
+}
+
+.slick-track {
+    display: flex;
+    gap: 6px;
+}
+  
+.slick-arrow{
+    top: -8%;
+}
+
+.slick-arrow::before {
+    content: "\2303";
+    font-size: 24px;
+    color: var(--black-950);
+}
+
+.slick-prev {
+    left: 100px;
+    transform: rotate(270deg);
+}
+.slick-next {
+    transform: rotate(90deg);
+    right: 100px;
+}

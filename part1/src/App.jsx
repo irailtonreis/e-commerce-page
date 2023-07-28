@@ -5,6 +5,7 @@ import { Header } from "./components/Header";
 import BannerPrincipal from './assets/banner-principal.png'
 import BannerSecondary1 from './assets/banner-secondary-1.png'
 import BannerSecondary2 from './assets/banner-secondary-2.png'
+import BannerColletion from './assets/banner-collection.png'
 import {Shelf} from "./components/Shelf";
 
 const App = () => {
@@ -20,10 +21,12 @@ const App = () => {
         </section>
         <section className="section-2">
           <img
+            className="secondary-banner"
             src={BannerSecondary1}
             alt="Banner imagem femenina"
           />
           <img
+            className="secondary-banner"
             src={BannerSecondary2}
             alt="Banner imagem masculina"
           />
@@ -49,8 +52,8 @@ const App = () => {
         <div class="banner-colletion-container">
           <img
             class="banner-colletion"
-            src="./assets/banner-collection.png"
-            alt="Banner Colecção"
+            src={BannerColletion}
+            alt="Banner Coleção"
           />
         </div>
       </section>
