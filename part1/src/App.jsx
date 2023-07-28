@@ -35,7 +35,7 @@ const App = () => {
           <Shelf/>
         </section>
         <section class="section-4">
-        <div class="subtitle">#youtube</div>
+        <h2 class="subtitle-youtube">#youtube</h2>
         <div class="video-container">
           <iframe
             class="video"

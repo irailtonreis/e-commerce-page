@@ -1,22 +1,150 @@
-.footer{
-    display: flex;
-    flex-direction: column;
+.footer {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 0 1rem;
+}
+
+.newsletter-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer .newsletter-text {
+  flex: 10;
+}
+.footer .newsletter-input {
+  flex-grow: 12;
+}
+.footer .newsletter-button {
+  flex-grow: 3;
+  display: flex;
+  justify-content: center;
+}
+
+.footer .newsletter-text h3 {
+  color: var(--black-950);
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.footer .newsletter-text p {
+  color: var(--black-950);
+  font-size: 1rem;
+  font-style: normal;
+}
+
+.footer .newsletter-text span {
+  font-weight: 700;
+}
+.footer .newsletter-input input {
+  border: 1px solid var(--black-900);
+  background: var(--gray-200);
+  display: flex;
+  padding: 0 1rem;
+  align-items: center;
+  gap: 16px;
+  min-width: 100%;
+  height: 40px;
+}
+.footer .newsletter-button button {
+  background: var(--black-950);
+  color: var(--white);
+  width: 112px;
+  height: 40px;
+  flex-shrink: 0;
+  border: none;
+  font-size: 0.75rem;
+  transition: all 0.3s;
+  height: 40px;
+  margin-top: 16px;
+}
+
+.footer .newsletter-button button:hover {
+  opacity: 0.8;
+}
+
+.footer-content{
+    padding-top: 16px;
 }
 
 .footer-logo {
-    height: 6em;
-    padding: 1.5em;
-    will-change: filter;
-    transition: filter 300ms;
-    width: initial;
-    display: initial;
-}
-  
-.newsletter-container{
-    display: flex;
-    flex-direction: column;
+  height: 4rem;
+  max-width: 10rem;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+  width: initial;
+  display: initial;
+  padding: 0;
 }
 
-.social-icone{
-    width: initial;
+.social-icone {
+  width: initial;
+}
+
+.footer-about ul, .footer-social ul{
+    padding: 0;
+}
+.footer-social ul {
+    display: flex;
+}
+
+.footer-title-links, .footer-title-social {
+  color: var(--black-950);
+  font-family: Arimo;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 92.4%;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  margin: 0 0 30px;
+}
+.footer-link {
+  color: var(--black-950);
+  font-family: Arimo;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2.24px;
+  display: block;
+  text-align: none;
+  transition: all 0.3s;
+  text-decoration: none;
+  margin-bottom: 7px;
+}
+.footer-link:hover {
+  opacity: 0.8;
+  text-decoration: underline;
+}
+
+.footer-link{
+    margin-right: 10px;
+}
+
+@media (min-width: 1024px) {
+  .footer {
+    padding: 0;
+  }
+
+  .footer-content{
+    display: flex;
+    justify-content: flex-start;
+    gap: 200px;
+  }
+
+  .footer .newsletter-button button {
+    margin-top: 0;
+  }
+
+  .newsletter-container {
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+  }
 }
