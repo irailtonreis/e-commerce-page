@@ -2,7 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 import ImageProduct from "../assets/product.png";
 import ProductsJson from "../products.json";
-import './Shelf.css'
+import "./Shelf.css";
 
 export const Shelf = () => {
   const settings = {
@@ -19,9 +19,9 @@ export const Shelf = () => {
           dots: true,
           arrows: false,
           centerMode: true,
-          centerPadding: '40px',
-          slidesToShow: 2
-        }
+          centerPadding: "40px",
+          slidesToShow: 2,
+        },
       },
       {
         breakpoint: 480,
@@ -29,11 +29,11 @@ export const Shelf = () => {
           dots: true,
           arrows: false,
           centerMode: true,
-          centerPadding: '40px',
-          slidesToShow: 1
-        }
-      }
-    ]
+          centerPadding: "40px",
+          slidesToShow: 1,
+        },
+      },
+    ],
   };
 
   return (
@@ -47,6 +47,8 @@ export const Shelf = () => {
                 <img src={ImageProduct} alt={product.title} />
               </div>
               <div class="product-info">
+                {product.flag ? <div className="product-flag"></div> : ""}
+
                 <h3 class="product-title">{product.title}</h3>
                 <div class="product-price">
                   <p class="product-price-normal">R$ {product.price}</p>
