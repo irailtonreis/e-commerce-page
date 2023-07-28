@@ -1,5 +1,7 @@
 import "./Footer.css";
 import logo from "../assets/logo-serie.svg";
+import logoFbits from "../assets/logo-fbits-branco.png";
+import logoSerie from "../assets/logo-serie.png";
 import IconInstagram from "../assets/instagram.svg";
 import IconFacebook from "../assets/facebook.svg";
 
@@ -59,6 +61,19 @@ export const Footer = () => {
               />
             </a>
           </ul>
+        </div>
+      </div>
+      <div className="copyright-container">
+        <div className="content-logo-container">
+        <div className="copyright-logo">
+          <img className="logo-copyright-1" src={logoFbits} alt="Logo Fbits" />
+        </div>
+        <div className="copyright-logo">
+          <img className="logo-copyright-2" src={logoSerie} alt="Logo Serie" />
+        </div>
+        </div>
+        <div className="copyright-text">
+          <p>@2023 Todos os direitos reservados</p>
         </div>
       </div>
     </footer>
